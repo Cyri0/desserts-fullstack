@@ -120,7 +120,8 @@ USE_TZ = True
 STATIC_URL = 'assets/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'frontend/dist/assets'
+    BASE_DIR / 'frontend/dist/assets',
+    BASE_DIR / 'assets'
 ]
 
 # Default primary key field type
