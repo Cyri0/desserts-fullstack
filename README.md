@@ -34,6 +34,6 @@ git clone https://github.com/Cyri0/desserts-fullstack.git
 python -m venv myvenv
 myvenv\Scripts\activate
 pip install -r requirements.txt
-cd desserts-fullstack
+cd desserts-fullstack/backend
 python manage.py runserver
 ```
