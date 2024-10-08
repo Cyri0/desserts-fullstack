@@ -37,4 +37,5 @@ cd desserts-fullstack
 pip install -r requirements.txt
 cd backend
 python manage.py runserver
+
 ```
