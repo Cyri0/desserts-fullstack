@@ -33,7 +33,8 @@ npm run build
 git clone https://github.com/Cyri0/desserts-fullstack.git
 python -m venv myvenv
 myvenv\Scripts\activate
+cd desserts-fullstack
 pip install -r requirements.txt
-cd desserts-fullstack/backend
+cd backend
 python manage.py runserver
 ```
